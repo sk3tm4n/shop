@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Repository\\StoreManager.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj",
+        "projectName": "StoreManager.DTO",
+        "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj",
+        "packagesPath": "C:\\Users\\lukak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Repository\\StoreManager.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Repository\\StoreManager.Repository.csproj",
+        "projectName": "StoreManager.Repository",
+        "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Repository\\StoreManager.Repository.csproj",
+        "packagesPath": "C:\\Users\\lukak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj": {
+                "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj"
+              },
+              "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\StoreManager.Service.csproj": {
+                "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\StoreManager.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\StoreManager.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\StoreManager.Service.csproj",
+        "projectName": "StoreManager.Service",
+        "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\StoreManager.Service.csproj",
+        "packagesPath": "C:\\Users\\lukak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj": {
+                "projectPath": "C:\\Users\\lukak\\source\\repos\\daviddvali\\Group-09\\G09_StoreManager\\StoreManager.DTO\\StoreManager.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
