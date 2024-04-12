@@ -1,0 +1,16 @@
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\bin\Debug\net8.0\StoreManager.Service.deps.json
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\bin\Debug\net8.0\StoreManager.Service.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\bin\Debug\net8.0\StoreManager.Service.pdb
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\bin\Debug\net8.0\StoreManager.DTO.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\bin\Debug\net8.0\StoreManager.DTO.pdb
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.csproj.AssemblyReference.cache
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.AssemblyInfoInputs.cache
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.AssemblyInfo.cs
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.csproj.CoreCompileInputs.cache
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.sourcelink.json
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreMan.02AEE8FE.Up2Date
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\refint\StoreManager.Service.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\StoreManager.Service.pdb
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.Services\obj\Debug\net8.0\ref\StoreManager.Service.dll

@@ -1,0 +1,12 @@
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\bin\Debug\net8.0\StoreManager.DTO.deps.json
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\bin\Debug\net8.0\StoreManager.DTO.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\bin\Debug\net8.0\StoreManager.DTO.pdb
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.AssemblyInfoInputs.cache
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.AssemblyInfo.cs
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.csproj.CoreCompileInputs.cache
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.sourcelink.json
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\refint\StoreManager.DTO.dll
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\StoreManager.DTO.pdb
+C:\Users\lukak\source\repos\daviddvali\Group-09\G09_StoreManager\StoreManager.DTO\obj\Debug\net8.0\ref\StoreManager.DTO.dll
