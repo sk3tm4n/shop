@@ -1,0 +1,157 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public static class MyLinQ
+{
+    public static IEnumerable<TSource> Where<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    {
+        foreach (TSource element in source)
+        {
+            if (predicate(element))
+            {
+                yield return element;
+            }
+        }
+    }
+
+    public static IEnumerable<TResult> Select<TSource, TResult>(this IEnumerable<TSource> source, Func<TSource, TResult> selector)
+    {
+        foreach (TSource element in source)
+        {
+            yield return selector(element);
+        }
+    }
+
+    public static TSource First<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    {
+        foreach (TSource element in source)
+        {
+            if (predicate(element))
+            {
+                return element;
+            }
+        }
+        throw new InvalidOperationException("No elements match the predicate.");
+    }
+
+    public static TSource FirstOrDefault<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    {
+        foreach (TSource element in source)
+        {
+            if (predicate(element))
+            {
+                return element;
+            }
+        }
+        return default(TSource);
+    }
+
+    public static TSource Single<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    {
+        TSource result = default(TSource);
+        bool found = false;
+
+        foreach (TSource element in source)
+        {
+            if (predicate(element))
+            {
+                if (found)
+                {
+                    throw new InvalidOperationException("More than one element matches the predicate.");
+                }
+                result = element;
+                found = true;
+            }
+        }
+
+        if (!found)
+        {
+            throw new InvalidOperationException("No elements match the predicate.");
+        }
+
+        return result;
+    }
+
+    public static TSource SingleOrDefault<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    {
+        TSource result = default(TSource);
+        bool found = false;
+
+        foreach (TSource element in source)
+        {
+            if (predicate(element))
+            {
+                if (found)
+                {
+                    throw new InvalidOperationException("More than one element matches the predicate.");
+                }
+                result = element;
+                found = true;
+            }
+        }
+
+        return result;
+    }
+
+    public static IEnumerable<TSource> Take<TSource>(this IEnumerable<TSource> source, int count)
+    {
+        int counter = 0;
+        foreach (TSource element in source)
+        {
+            if (counter++ < count)
+            {
+                yield return element;
+            }
+            else
+            {
+                yield break;
+            }
+        }
+    }
+
+    public static IEnumerable<TSource> Skip<TSource>(this IEnumerable<TSource> source, int count)
+    {
+        int counter = 0;
+        foreach (TSource element in source)
+        {
+            if (counter++ >= count)
+            {
+                yield return element;
+            }
+        }
+    }
+
+    public static IEnumerable<TResult> SelectMany<TSource, TResult>(this IEnumerable<TSource> source, Func<TSource, IEnumerable<TResult>> selector)
+    {
+        foreach (TSource element in source)
+        {
+            foreach (TResult subElement in selector(element))
+            {
+                yield return subElement;
+            }
+        }
+    }
+
+    public static IEnumerable<TSource> OrderBy<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
+    {
+        return source.OrderBy(keySelector, Comparer<TKey>.Default);
+    }
+
+    public static IEnumerable<TSource> OrderByDescending<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
+    {
+        return source.OrderByDescending(keySelector, Comparer<TKey>.Default);
+    }
+
+    public static IEnumerable<TSource> Distinct<TSource>(this IEnumerable<TSource> source)
+    {
+        HashSet<TSource> seenElements = new HashSet<TSource>();
+        foreach (TSource element in source)
+        {
+            if (seenElements.Add(element))
+            {
+                yield return element;
+            }
+        }
+    }
+}
